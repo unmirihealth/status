@@ -1,7 +1,7 @@
 url: https://app.unmiri.com
-status: up
-code: 200
-responseTime: 3552
-lastUpdated: 2026-05-31T12:48:01.771Z
+status: down
+code: 500
+responseTime: 79
+lastUpdated: 2026-05-31T18:54:06.807Z
 startTime: 2026-05-31T12:47:58.217Z
 generator: Upptime <https://github.com/upptime/upptime>
