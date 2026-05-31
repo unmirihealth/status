@@ -1,15 +1,4 @@
 # UNMIRI status page (Upptime) configuration.
-#
-# This file is NOT used by the unmiri.com app. It is the config for a
-# SEPARATE public GitHub repo (suggested: github.com/<your-org>/status)
-# created from the Upptime template (https://github.com/upptime/upptime).
-#
-# Setup is in docs/status-page/SETUP.md. Copy this file's contents into
-# the `.upptimerc.yml` at the ROOT of that status repo, replace
-# <your-github-username-or-org>, commit, and Upptime's GitHub Actions
-# do the rest (checks every 5 min, history in git, static page on
-# GitHub Pages). No server, no database, no PHI. The status page lives
-# on GitHub infra so it survives an AWS/Vercel outage.
 
 owner: unmirihealth # GitHub org/user that owns the status repo
 repo: status # name of the status repo
@@ -38,4 +27,4 @@ status-website:
 # Check cadence and notification behavior (sane defaults).
 delay: 0
 assignees:
-  - <your-github-username-or-org>
+  - unmirihealth
