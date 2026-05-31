@@ -1,31 +1,41 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# UNMIRI status page (Upptime) configuration.
+#
+# This file is NOT used by the unmiri.com app. It is the config for a
+# SEPARATE public GitHub repo (suggested: github.com/<your-org>/status)
+# created from the Upptime template (https://github.com/upptime/upptime).
+#
+# Setup is in docs/status-page/SETUP.md. Copy this file's contents into
+# the `.upptimerc.yml` at the ROOT of that status repo, replace
+# <your-github-username-or-org>, commit, and Upptime's GitHub Actions
+# do the rest (checks every 5 min, history in git, static page on
+# GitHub Pages). No server, no database, no PHI. The status page lives
+# on GitHub infra so it survives an AWS/Vercel outage.
+
+owner: <your-github-username-or-org> # GitHub org/user that owns the status repo
+repo: status # name of the status repo
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: API (api.unmiri.com)
+    url: https://api.unmiri.com/healthz
+  - name: API readiness
+    url: https://api.unmiri.com/readyz
+  - name: App (app.unmiri.com)
+    url: https://app.unmiri.com
+  - name: Marketing site (unmiri.com)
+    url: https://unmiri.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.unmiri.com # remove this line until DNS is set up, or it 404s
+  name: UNMIRI Status
+  introTitle: "UNMIRI Service Status"
+  introMessage: "Live availability of UNMIRI's API, app, and marketing site. Checks run every 5 minutes from GitHub's infrastructure, independent of UNMIRI's hosting."
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: UNMIRI
+      href: https://unmiri.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Check cadence and notification behavior (sane defaults).
+delay: 0
+assignees:
+  - <your-github-username-or-org>
