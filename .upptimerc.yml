@@ -11,7 +11,7 @@
 # GitHub Pages). No server, no database, no PHI. The status page lives
 # on GitHub infra so it survives an AWS/Vercel outage.
 
-owner: <your-github-username-or-org> # GitHub org/user that owns the status repo
+owner: unmirihealth # GitHub org/user that owns the status repo
 repo: status # name of the status repo
 
 sites:
