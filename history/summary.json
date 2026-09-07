@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.98%",
-    "time": 1510,
-    "timeDay": 1510,
-    "timeWeek": 1348,
-    "timeMonth": 1012,
-    "timeYear": 1510,
+    "time": 1509,
+    "timeDay": 1407,
+    "timeWeek": 1282,
+    "timeMonth": 1023,
+    "timeYear": 1509,
     "dailyMinutesDown": {
       "2026-08-08": 25
     }
@@ -31,9 +31,9 @@
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.99%",
     "time": 210,
-    "timeDay": 299,
-    "timeWeek": 282,
-    "timeMonth": 207,
+    "timeDay": 266,
+    "timeWeek": 273,
+    "timeMonth": 210,
     "timeYear": 210,
     "dailyMinutesDown": {
       "2026-08-08": 20
@@ -45,16 +45,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.unmiri.com.ico",
     "slug": "app-app-unmiri-com",
     "status": "up",
-    "uptime": "99.33%",
+    "uptime": "99.34%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.33%",
-    "time": 405,
-    "timeDay": 59,
-    "timeWeek": 197,
+    "uptimeYear": "99.34%",
+    "time": 403,
+    "timeDay": 211,
+    "timeWeek": 146,
     "timeMonth": 316,
-    "timeYear": 405,
+    "timeYear": 403,
     "dailyMinutesDown": {
       "2026-06-01": 634,
       "2026-05-31": 306
@@ -71,11 +71,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 697,
-    "timeDay": 996,
-    "timeWeek": 1002,
-    "timeMonth": 863,
-    "timeYear": 697,
+    "time": 703,
+    "timeDay": 1311,
+    "timeWeek": 1023,
+    "timeMonth": 862,
+    "timeYear": 703,
     "dailyMinutesDown": {}
   }
 ]
